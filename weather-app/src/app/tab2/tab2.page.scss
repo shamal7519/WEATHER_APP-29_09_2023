@@ -1,0 +1,56 @@
+ion-title {
+    text-align: center;
+  }
+  ion-card-header {
+    text-align: center;
+  }
+  
+  ion-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  ion-input {
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  ion-button {
+    margin-top: 10px;
+  }
+  
+  ion-card {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  ion-card-header {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  ion-card-content {
+    padding: 10px;
+  }
+  
+  ion-icon {
+    font-size: 2rem;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Style the temperature and description */
+  p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Add some spacing at the bottom of the page */
+  ion-content {
+    padding-bottom: 20px;
+  }
+  

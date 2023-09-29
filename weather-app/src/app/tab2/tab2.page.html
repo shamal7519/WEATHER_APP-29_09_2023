@@ -20,8 +20,12 @@
         Forecast for {{ daily.date | date: 'dd/MM/yyyy' }}
       </ion-card-header>
       <ion-card-content>
-        <ion-icon [name]="daily.icon"></ion-icon>
-        <p>Temperature: {{ daily.temperature }}°C</p>
+        <ion-icon [name]="daily.weatherIcon" class="weather-icon"></ion-icon>
+        <p>
+          <ion-icon name="thermometer-outline" class="temperature-icon"></ion-icon>
+          Temperature: {{ daily.temperature }}°C
+          <ion-icon [name]="daily.rainIcon" class="rain-icon"></ion-icon>
+        </p>
         <p>{{ daily.description }}</p>
       </ion-card-content>
     </ion-card>
