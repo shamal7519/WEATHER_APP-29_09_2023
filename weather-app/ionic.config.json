@@ -1,0 +1,7 @@
+{
+  "name": "WEATHER-APP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
